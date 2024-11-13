@@ -1,0 +1,29 @@
+<!-- <div style='margin-bottom:16px;'>
+
+<h3 
+style=margin-bottom:4px;>{{eve['Eventname']}}
+</h3>
+<div><b>Time</b>: {{eve['time']}}
+</div>
+</div>
+{%if 'Date' in eve%}
+<div>
+<b>Date:</b>{{eve['Date']}}
+</div>
+{%endif %}
+</div> -->
+
+<div class='border-bottom'style="margin-bottom: 16px; padding:8px;">
+  <h3 style="margin-bottom: 4px;">{{ eve['Eventname'] }}</h3>
+  <div style="margin-bottom: 4px;">
+    <b>Time:</b> {{ eve['time'] }}
+  </div>
+  {% if 'Date' in eve %}
+  <div>
+    <b>Date:</b> {{ eve['Date'] }}
+  </div>
+  {% endif %}
+  <button type='button' class='btn btn-outline-primary'>
+    Register
+  </button>
+</div>
