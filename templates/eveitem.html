@@ -23,7 +23,7 @@ style=margin-bottom:4px;>{{eve['Eventname']}}
     <b>Date:</b> {{ eve['Date'] }}
   </div>
   {% endif %}
-  <button type='button' class='btn btn-outline-primary'>
+  <a href="mailto:EventRegistration?subject=Registration for {{eve['Eventname']}}" type='button' class='btn btn-outline-primary'>
     Register
-  </button>
+  </a>
 </div>

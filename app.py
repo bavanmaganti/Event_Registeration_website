@@ -5,7 +5,7 @@ app=Flask(__name__)
 Events=[
   {
     'id':1,
-    'Eventname':'coding',
+    'Eventname':'Drama',
     'Date':'12/12/2024',
     'time':'10am-2pm'
   },
